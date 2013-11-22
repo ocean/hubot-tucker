@@ -3,4 +3,8 @@ node_js:
   - "0.11"
   - "0.10"
 notifications:
-  email: false
+  email:
+    recipients:
+      - dmriti@gmail.com
+    on_success: change
+    on_failure: always
