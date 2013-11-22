@@ -1,6 +1,6 @@
 # Hubot BOFH
 
-BOFH excuse generator for Hubot created by [aresenio][1]
+BOFH excuse generator for Hubot created by [arsenio][1]
 
 [![Build Status](https://travis-ci.org/danriti/hubot-bofh.png)](https://travis-ci.org/danriti/hubot-bofh)
 
