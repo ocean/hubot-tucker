@@ -2,7 +2,7 @@
   "name": "hubot-bofh",
   "description": "BOFH excuse generator for Hubot",
   "version": "1.0.0",
-  "author": "Arsenio <foo@bar.io>",
+  "author": "Arsenio Santos <arsenio@gmail.com>",
   "license": "MIT",
 
   "keywords": [

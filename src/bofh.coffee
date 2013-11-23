@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   bofh me - get a random BOFH excuse
+#   hubot bofh me - get a random BOFH excuse
 #
 # Notes:
 #   These excuses were pulled from Jeff Ballard's BOFH Server, in turn based on Simon Paul Travaglia's stories
