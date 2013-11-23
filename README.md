@@ -12,7 +12,7 @@ Add **hubot-bofh** to your `package.json` file:
 "dependencies": {
   "hubot": ">= 2.5.1",
   "hubot-scripts": ">= 2.4.2",
-  "hubot-bofh": "git://github.com/danriti/hubot-bofh.git#master",
+  "hubot-bofh": ">= 1.0.0",
   "hubot-hipchat": "~2.5.1-5",
   "ntwitter": "~0.5.0",
   "shellwords": "~0.1.0",
