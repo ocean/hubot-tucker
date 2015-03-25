@@ -30,7 +30,7 @@ Your Hubot will now respond with an insult whenever addressed with *"Hubot tucke
 
 ## Credits
 
-Many thanks to [arsenio][2], as this was forked from his [hubot-bofh][3] script.
+Many thanks to [arsenio][2], who created the original Hubot script, and [danriti][3] as this was forked from his [hubot-bofh][4] script.
 
 The included quotes were compiled from various sources around the Internet, including:
 
@@ -41,4 +41,5 @@ The included quotes were compiled from various sources around the Internet, incl
 
 [1]: https://twitter.com/ocean
 [2]: https://github.com/arsenio
-[3]: https://github.com/arsenio/hubot-bofh
+[3]: https://github.com/danriti
+[4]: https://github.com/danriti/hubot-bofh

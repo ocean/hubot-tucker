@@ -13,4 +13,4 @@ describe 'tucker', ->
     require('../src/tucker')(@robot)
 
   it 'registers a respond listener', ->
-    expect(@robot.respond).to.have.been.calledWith(/tucker me/)
+    expect(@robot.respond).to.have.been.calledWith(/tucker me/i)
