@@ -11,7 +11,7 @@
 #   hubot tucker me - get a random Malcolm Tucker quote
 #
 # Notes:
-#   These excuses were compiled from various sources around the Internet, including:
+#   These quotes were compiled from various sources around the Internet.
 #
 # Author:
 #   ocean
