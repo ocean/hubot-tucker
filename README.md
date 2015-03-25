@@ -1,33 +1,33 @@
-# Hubot BOFH
+# Hubot Tucker
 
-BOFH excuse generator for Hubot created by [arsenio][1]
+Malcolm Tucker quote provider for Hubot created by [ocean][1].
 
-[![Build Status](https://travis-ci.org/danriti/hubot-bofh.png)](https://travis-ci.org/danriti/hubot-bofh)
+[![Build Status](https://travis-ci.org/ocean/hubot-tucker.png)](https://travis-ci.org/ocean/hubot-tucker)
 
 ## Installation
 
-Add **hubot-bofh** to your `package.json` file:
+Add **hubot-tucker** to your `package.json` file:
 
 ```json
 "dependencies": {
   "hubot": ">= 2.5.1",
   "hubot-scripts": ">= 2.4.2",
-  "hubot-bofh": ">= 1.0.0",
-  "hubot-hipchat": "~2.5.1-5",
-  "ntwitter": "~0.5.0",
-  "shellwords": "~0.1.0",
-  "bang": "~1.0.4",
-  "cheerio": "~0.12.3",
-  "moment": "~2.4.0"
+  "hubot-tucker": ">= 1.0.0",
 }
 ```
 
-Add **hubot-bofh** to your `external-scripts.json`:
+Add **hubot-tucker** to your `external-scripts.json`:
 
 ```json
-["hubot-bofh"]
+["hubot-tucker"]
 ```
 
 Run `npm install`
 
-[1]: https://github.com/arsenio
+## Credits
+
+Many thanks to [arsenio][2], as this was forked from his [hubot-bofh][3] script.
+
+[1]: http://twitter.com/ocean
+[2]: https://github.com/arsenio
+[3]: https://github.com/arsenio/hubot-bofh

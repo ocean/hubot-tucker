@@ -1,23 +1,23 @@
 {
-  "name": "hubot-bofh",
-  "description": "BOFH excuse generator for Hubot",
+  "name": "hubot-tucker",
+  "description": "Malcolm Tucker quote provider for Hubot",
   "version": "1.0.0",
-  "author": "Arsenio Santos <arsenio@gmail.com>",
+  "author": "Drew Robinson <drew.robinson@gmail.com>",
   "license": "MIT",
 
   "keywords": [
     "hubot",
     "hubot-scripts",
-    "bofh"
+    "malcolm tucker"
   ],
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/danriti/hubot-bofh.git"
+    "url": "git://github.com/ocean/hubot-tucker.git"
   },
 
   "bugs": {
-    "url": "https://github.com/danriti/hubot-bofh/issues"
+    "url": "https://github.com/ocean/hubot-tucker/issues"
   },
 
   "dependencies": {
