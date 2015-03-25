@@ -17,7 +17,7 @@
 #   ocean
 #   with thanks to arsenio
 
-excuses = [
+quotes = [
   'He\'s useless. He\'s absolutely useless. He\'s as useless as a marzipan dildo.', 
   'You don\'t seem to understand that I\'m going to have to have to mop up a fucking hurricane of piss from all these neurotics.', 
   'Feet off the furniture, you Oxbridge twat. You\'re not in a punt now.', 
@@ -44,4 +44,4 @@ excuses = [
 module.exports = (robot) ->
   robot.respond /tucker me/i, (msg)->
     quote = msg.random quotes
-    msg.send excuse
+    msg.send quote
