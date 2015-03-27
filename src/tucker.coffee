@@ -48,7 +48,11 @@ quotes = [
   'Within your \'purview\'? Where do you think you are, some fucking regency costume drama? This is a government department, not some fucking Jane fucking Austen novel! Allow me to pop a jaunty little bonnet on your purview and ram it up your shitter with a lubricated horse cock.',
   'Fuckity bye!',
   'I\'m gonna come over there, I\'m gonna lock you in a fucking flotation tank and pump it full of sewage until you fucking drown.',
-  ''
+  'I\'ve got a to-do list here that\'s longer than a fucking Leonard Cohen song.',
+  'Do you know what\'s really fucking sad here is that I don\'t have the energy to pretend I already knew. Which is for the best, because I\'m gonna need all of my fucking energy to fucking rip all of your bodies to bits with my bare hands and sell off, yes, sell off your fucking flayed skin as a sleeping bag to a fucking normal person!',
+  'I wouldn\'t fucking piss on you if you were fucking allergic to piss, right?',
+  'Get over here. Now. Might be advisable to wear brown trousers and a shirt the colour of blood.',
+  'Enough! E-fucking-nough. You need to learn to shut your fucking cave. Right? Today, you have laid your first big fat egg of solid fuck. You took the data loss media strategy and you ate with a lump of E.coli. And then you sprayed it our of your arse at 300 mph.'
 ]
 
 module.exports = (robot) ->
