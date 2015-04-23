@@ -1,6 +1,6 @@
 # Hubot Tucker
 
-[![Build Status](https://travis-ci.org/ocean/hubot-tucker.svg)](https://travis-ci.org/ocean/hubot-tucker)
+[![Build Status](https://travis-ci.org/ocean/hubot-tucker.svg)](https://travis-ci.org/ocean/hubot-tucker) [![Dependency Status](https://david-dm.org/ocean/hubot-tucker.svg?style=flat-square)](https://david-dm.org/ocean/hubot-tucker)
 
 [Malcolm Tucker](https://en.wikipedia.org/wiki/Malcolm_Tucker) quote provider for [Hubot](https://hubot.github.com) created by [ocean][1].
 
