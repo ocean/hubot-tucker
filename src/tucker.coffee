@@ -62,5 +62,5 @@ quotes = [
 module.exports = (robot) ->
   robot.respond /tucker me/i, (msg)->
     quote = msg.random quotes
-    msg.send "Malcolm says: #{quote}"
+    msg.send "\"#{quote}\""
 

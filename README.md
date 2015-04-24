@@ -12,9 +12,10 @@ Add **hubot-tucker** to your `package.json` file:
 
 ```json
 "dependencies": {
-  "hubot": "^2.11.2",
-  "hubot-scripts": "^2.5.16",
-  "hubot-tucker": "^1.x.x",
+  "hubot": "*",
+  ...
+  ...
+  "hubot-tucker": "*",
 }
 ```
 
@@ -26,7 +27,7 @@ Add **hubot-tucker** to your `external-scripts.json`:
 
 Run `npm install`
 
-Your Hubot will now respond with an insult whenever addressed with *"Hubot tucker me"*.
+Your Hubot will now respond with an insult whenever addressed with *"<Hubot name> tucker me"*.
 
 ## Credits
 
@@ -35,9 +36,9 @@ Many thanks to [arsenio][2], who created the original Hubot script, and [danriti
 The included quotes were compiled from various sources around the Internet, including:
 
 - [http://en.wikiquote.org/wiki/The\_Thick\_of\_It](http://en.wikiquote.org/wiki/The_Thick_of_It)
-- http://www.imdb.com/character/ch0029856/quotes
-- http://dave.uktv.co.uk/thick-it/article/malcolm-tuckers-10-best-apocalyinsults-thick-it/
-- http://www.buzzfeed.com/robinedds/dont-ever-call-me-f-in-english-again
+- [http://www.imdb.com/character/ch0029856/quotes](http://www.imdb.com/character/ch0029856/quotes)
+- [http://dave.uktv.co.uk/thick-it/article/malcolm-tuckers-10-best-apocalyinsults-thick-it/](http://dave.uktv.co.uk/thick-it/article/malcolm-tuckers-10-best-apocalyinsults-thick-it/)
+- [http://www.buzzfeed.com/robinedds/dont-ever-call-me-f-in-english-again](http://www.buzzfeed.com/robinedds/dont-ever-call-me-f-in-english-again)
 
 [1]: https://twitter.com/ocean
 [2]: https://github.com/arsenio
