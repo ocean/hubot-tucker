@@ -13,8 +13,8 @@ Add **hubot-tucker** to your `package.json` file:
 ```json
 "dependencies": {
   "hubot": "*",
-  ...
-  ...
+  "...": "*",
+  "...": "*",
   "hubot-tucker": "*",
 }
 ```
@@ -27,7 +27,7 @@ Add **hubot-tucker** to your `external-scripts.json`:
 
 Run `npm install`
 
-Your Hubot will now respond with an insult whenever addressed with *"<Hubot name> tucker me"*.
+Your Hubot will now respond with an insult whenever addressed with *"&lt;&lt;Hubot name&gt;&gt; tucker me"*.
 
 ## Credits
 
