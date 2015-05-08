@@ -27,7 +27,7 @@ Add **hubot-tucker** to your `external-scripts.json`:
 
 Run `npm install`
 
-Your Hubot will now respond with an insult whenever addressed with *"&lt;&lt;Hubot name&gt;&gt; tucker me"*.
+Your Hubot will now respond with an insult whenever addressed with *"&lt;&lt;Hubot name&gt;&gt; tucker me"*, or whenever the word "Malcolm" or "malc" is used in the chat room (case insensitive).
 
 ## Credits
 
