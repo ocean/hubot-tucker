@@ -5,10 +5,11 @@
 #   None
 #
 # Configuration:
-#   None
+#   HUBOT_LESS_MALCOLM
 #
 # Commands:
-#   hubot tucker me - get a random Malcolm Tucker quote
+#   - hubot tucker - get a random Malcolm Tucker quote
+#   - mention "malc" or "malcolm" - get a random Malcolm Tucker quote
 #
 # Notes:
 #   These quotes were compiled from various sources around the Internet.
@@ -60,11 +61,12 @@ quotes = [
 ]
 
 module.exports = (robot) ->
-  robot.respond /tucker me/i, (res) ->
+  robot.respond /tucker/i, (res) ->
     quote = res.random quotes
     res.send "\"#{quote}\""
 
-  robot.hear /malc(\s+|olm)/i, (res) ->
-    quote = res.random quotes
-    res.send "\"#{quote}\""
+  unless process.env.HUBOT_LESS_MALCOLM
+    robot.hear /malc(\s+|olm)/i, (res) ->
+      quote = res.random quotes
+      res.send "\"#{quote}\""
 
