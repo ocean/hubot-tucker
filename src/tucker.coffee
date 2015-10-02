@@ -65,6 +65,10 @@ module.exports = (robot) ->
     quote = res.random quotes
     res.send "\"#{quote}\""
 
+  robot.hear /tucker/i, (res) ->
+      quote = res.random quotes
+      res.send "\"#{quote}\""
+
   unless process.env.HUBOT_LESS_MALCOLM
     robot.hear /malc(\s+|olm)/i, (res) ->
       quote = res.random quotes

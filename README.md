@@ -27,9 +27,9 @@ Add **hubot-tucker** to your `external-scripts.json`:
 
 Run `npm install`
 
-Your Hubot will now respond with an insult whenever addressed with *"&lt;&lt;Hubot name&gt;&gt; tucker"*, or whenever the word "Malcolm" or "malc" is used in the chat room (case insensitive).
+Your Hubot will now respond with an insult whenever addressed with *"&lt;&lt;Hubot name&gt;&gt; tucker"*, or whenever the word "Malcolm", "Malc" __*__ or "Tucker" is used in the chat room (case insensitive).
 
-If you wish Hubot to not respond with a quote when the name "Malc" or "Malcolm" is mentioned (say because you have someone in your team called Malcolm, or because [your country gets a new Prime Minister][5] and your colleagues chat about politics a lot ;-) then set `HUBOT_LESS_MALCOLM` to a *truthy* value such as `true` or `1` and Hubot will be quieter.
+__*__If you wish Hubot to not respond with a quote when the name "Malc" or "Malcolm" is mentioned (say because you have someone in your team called Malcolm, or because [your country gets a new Prime Minister][5] and your colleagues chat about politics a lot ;-) then set `HUBOT_LESS_MALCOLM` to a *truthy* value such as `true` or `1` and Hubot will be quieter.
 
 ## Credits
 
