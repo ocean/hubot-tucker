@@ -1,8 +1,8 @@
 # Hubot Tucker
 
-[![Build Status](https://travis-ci.org/ocean/hubot-tucker.svg)](https://travis-ci.org/ocean/hubot-tucker) [![Dependency Status](https://david-dm.org/ocean/hubot-tucker.svg?style=flat-square)](https://david-dm.org/ocean/hubot-tucker)
+[![Build Status](https://img.shields.io/travis/ocean/hubot-tucker.svg?style=flat-square)](https://travis-ci.org/ocean/hubot-tucker) [![Dependency Status](https://david-dm.org/ocean/hubot-tucker.svg?style=flat-square)](https://david-dm.org/ocean/hubot-tucker) [![npm version](https://img.shields.io/npm/v/hubot-tucker.svg?style=flat-square)](https://www.npmjs.com/package/hubot-tucker) [![npm downloads](https://img.shields.io/npm/dt/hubot-tucker.svg?style=flat-square&label=total%20downloads)](https://www.npmjs.com/package/hubot-tucker) [![npm recent downloads](https://img.shields.io/npm/dm/hubot-tucker.svg?style=flat-square&label=recent%20downloads)](https://www.npmjs.com/package/hubot-tucker)
 
-[Malcolm Tucker](https://en.wikipedia.org/wiki/Malcolm_Tucker) quote provider for [Hubot](https://hubot.github.com) created by [ocean][1].
+[Malcolm Tucker](https://en.wikipedia.org/wiki/Malcolm_Tucker) quote provider for [Hubot](https://hubot.github.com) created by [@ocean][1].
 
 ## Great big sweary swearword warning, obviously.
 
@@ -43,6 +43,10 @@ The included quotes were compiled from various sources around the Internet, incl
 - [http://www.imdb.com/character/ch0029856/quotes](http://www.imdb.com/character/ch0029856/quotes)
 - [http://dave.uktv.co.uk/thick-it/article/malcolm-tuckers-10-best-apocalyinsults-thick-it/](http://dave.uktv.co.uk/thick-it/article/malcolm-tuckers-10-best-apocalyinsults-thick-it/)
 - [http://www.buzzfeed.com/robinedds/dont-ever-call-me-f-in-english-again](http://www.buzzfeed.com/robinedds/dont-ever-call-me-f-in-english-again)
+ 
+Drew Robinson, [@ocean][1].
+
+[![Follow ocean on Twitter](https://img.shields.io/twitter/follow/ocean.svg?style=social)][1]
 
 [1]: https://twitter.com/ocean
 [2]: https://github.com/arsenio
