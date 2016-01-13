@@ -6,6 +6,8 @@
 
 ## Great big sweary swearword warning, obviously.
 
+<img src="http://i.imgur.com/AkuwSlW.png" title="Malcolm visits the USA" />
+
 ## Installation
 
 Add **hubot-tucker** to your `package.json` file:
