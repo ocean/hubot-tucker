@@ -49,15 +49,23 @@ quotes = [
   'Within your \'purview\'? Where do you think you are, some fucking regency costume drama? This is a government department, not some fucking Jane fucking Austen novel! Allow me to pop a jaunty little bonnet on your purview and ram it up your shitter with a lubricated horse cock.',
   'Fuckity bye!',
   'I\'m gonna come over there, I\'m gonna lock you in a fucking flotation tank and pump it full of sewage until you fucking drown.',
-  'I\'ve got a to-do list here that\'s longer than a fucking Leonard Cohen song.',
-  'Do you know what\'s really fucking sad here is that I don\'t have the energy to pretend I already knew. Which is for the best, because I\'m gonna need all of my fucking energy to fucking rip all of your bodies to bits with my bare hands and sell off, yes, sell off your fucking flayed skin as a sleeping bag to a fucking normal person!',
+  "I've got a to-do list here that's longer than a fucking Leonard Cohen song.",
+  'Do you know what\'s really fucking sad here, is that I don\'t have the energy to pretend I already knew. Which is for the best, because I\'m gonna need all of my fucking energy to fucking rip all of your bodies to bits with my bare hands and sell off, yes, sell off your fucking flayed skin, as a sleeping bag, to a fucking NORMAL PERSON!',
   'I wouldn\'t fucking piss on you if you were fucking allergic to piss, right?',
   'Get over here. Now. Might be advisable to wear brown trousers and a shirt the colour of blood.',
   'Enough! E-fucking-nough. You need to learn to shut your fucking cave. Right? Today, you have laid your first big fat egg of solid fuck. You took the data loss media strategy and you ate with a lump of E.coli. And then you sprayed it our of your arse at 300 mph.',
   'Fuck me! This is like a clown running across a minefield!',
   'You know fuck all about me! I am totally beyond the realms of your fuckin\' tousle-haired fuckin\' dim-witted compre-fucking-hension. I don\'t just take this fucking job home, you know! I take this job home, it fucking ties me to the bed, and it fuckin\' fucks me from arsehole to breakfast! Then it wakes me up in the morning with a cup full of piss slammed in my face, slaps me about the chops to make sure I\'m awake enough so it can kick me in the fucking bollocks! This job has taken me in every hole in my fucking body. "Malcolm!", it\'s gone, you can\'t know Malcolm because Malcolm is not here! Malcolm fucking left the building fucking years ago! This is a fucking husk, I am a fucking host for this fucking job. Do you want this job? Yes? You do fucking want this job? Then you\'re gonna have to swallow this whole fucking life and let it grow inside you like a parasite, getting bigger and bigger and bigger until it fucking eats your insides alive and it stares out of your eyes and tells you what to do.',
   'How fucking dare you? Have you any idea of the amount of pressure that has been exerted on my skull, huh? It feels like my brain has been fucking emptied into little packets, into fucking crisp packets. Cheese and onion fucking crisp packets that contain my living, breathing fucking brain.',
-  'The exchange of private information - that is what drives our economy. But, you come after me because you can\'t arrest a landmass, can you? You can\'t cuff a country. You can\'t lynch that guy there, can you? But you decide that you can sit there, that you can judge and can ogle me like a Page 3 girl. You don\'t like it? Well, you don\'t like yourself! You don\'t like your species. And you know what? Neither do I, but how dare you come and lay this at my door! How dare you blame me for this! Which is the result of a political class, which has given up on morality and simply pursues popularity at all costs. I am you and you are me.'
+  'The exchange of private information - that is what drives our economy. But, you come after me because you can\'t arrest a landmass, can you? You can\'t cuff a country. You can\'t lynch that guy there, can you? But you decide that you can sit there, that you can judge and can ogle me like a Page 3 girl. You don\'t like it? Well, you don\'t like yourself! You don\'t like your species. And you know what? Neither do I, but how dare you come and lay this at my door! How dare you blame me for this! Which is the result of a political class, which has given up on morality and simply pursues popularity at all costs. I am you and you are me.',
+    'How much fucking shit is there on the menu and what fucking flavour is it?',
+    'You\'re so back-bench, you\'ve actually fucking fallen off. You\'re out by the fucking bins where I put you.',
+    'Please could you take this note, ram it up his hairy inbox and pin it to his fucking prostate.',
+    'I\'ve come across a lot of psychos, but none as fucking boring as you.',
+    'I\'ve never seen anyone look so fucking ugly with only one head.',
+    'I need you lot to make like a tree... and go fuck yourselves.',
+    'Kiss my sweaty balls, you fat fuck.',
+    'Yeah, ok. Fuckity bye!'
 ]
 
 module.exports = (robot) ->
