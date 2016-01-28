@@ -22,11 +22,11 @@
     "coffee-script": "1.6.3"
   },
   "devDependencies": {
-    "chai": "*",
+    "chai": "^3.5.x",
     "hubot-test-helper": "^1.4.x",
-    "mocha": "*",
-    "sinon-chai": "*",
-    "sinon": "*"
+    "mocha": "^2.4.x",
+    "sinon-chai": "^2.8.x",
+    "sinon": "^1.17.x"
   },
   "main": "index.coffee",
   "scripts": {
