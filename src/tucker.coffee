@@ -5,14 +5,15 @@
 #   None
 #
 # Configuration:
-#   HUBOT_LESS_MALCOLM
+#   HUBOT_LESS_MALCOLM - if set to true or 1, Hubot will skip mentions of "Malcolm" or "Malc"
+#   HUBOT_TUCKER_BYLINE - if set to true or 1, Hubot will add a byline to the end of quotes
 #
 # Commands:
-#   - hubot tucker - get a random Malcolm Tucker quote
-#   - mention "malc" or "malcolm" - get a random Malcolm Tucker quote
+#   hubot tucker <person> or "me" - get a random Malcolm Tucker quote directed at <person> or yourself
+#   "malc" or "malcolm" or "tucker" - get a random Malcolm Tucker quote
 #
 # Notes:
-#   These quotes were compiled from various sources around the Internet.
+#   These quotes were compiled from various sources around the Internet. See README for details.
 #
 # Author:
 #   ocean
@@ -74,26 +75,35 @@ restOfQuotes = [
   'Fuck me! This is like a clown running across a minefield!',
 ]
 
-mostOfQuotes = secondPerson.concat thirdPerson
-
-allQuotes = mostOfQuotes.concat restOfQuotes
+allQuotes = secondPerson.concat thirdPerson, restOfQuotes
 
 module.exports = (robot) ->
-  robot.respond /tucker (.*)/i, (res) ->
+  robot.respond /tucker (\w+)/i, (res) ->
     person = res.match[1]
     if person is "me"
       quote = res.random thirdPerson
       res.send "Malcolm was talking about you earlier, he said \"#{quote}\""
+    else if person.search(/malc(\s+|olm)|tucker|himself/i) > -1
+      res.send "I'm watching you, you cheeky fucker."
     else
       quote = res.random secondPerson
-      res.send "I heard Malcolm talking to #{person}, he was saying \"#{quote}\""
+      res.send "I heard Malcolm talking to #{person}, he said \"#{quote}\""
 
   robot.hear /tucker/i, (res) ->
+    message = res.message.text
+    if message.search(robot.name) is -1
       quote = res.random allQuotes
-      res.send "\"#{quote}\""
+      if process.env.HUBOT_TUCKER_BYLINE
+        res.send "\"#{quote}\" -- Malcolm Tucker"
+      else
+        res.send "\"#{quote}\""
 
   unless process.env.HUBOT_LESS_MALCOLM
     robot.hear /malc(\s+|olm)/i, (res) ->
-      quote = res.random allQuotes
-      res.send "\"#{quote}\""
-
+      message = res.message.text
+      if message.search(/tucker/i) is -1
+        quote = res.random allQuotes
+        if process.env.HUBOT_TUCKER_BYLINE
+          res.send "\"#{quote}\" -- Malcolm Tucker"
+        else
+          res.send "\"#{quote}\""
