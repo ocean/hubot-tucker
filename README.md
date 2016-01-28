@@ -6,7 +6,7 @@
 
 ## Great big sweary swearword warning, obviously.
 
-<img src="http://i.imgur.com/AkuwSlW.png" title="Malcolm visits the USA" />
+<img src="https://i.imgur.com/AkuwSlW.png" title="Malcolm visits the USA" />
 
 ## Installation
 
