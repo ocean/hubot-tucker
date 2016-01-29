@@ -92,6 +92,7 @@ module.exports = (robot) ->
   robot.hear /tucker/i, (res) ->
     message = res.message.text
     name = message.search(robot.name)
+    rn = robot.name
     re = new RegExp robot.name, 'i'
     robot.logger.info "name match = #{name}"
     robot.logger.info "robot name is = #{rn}"
