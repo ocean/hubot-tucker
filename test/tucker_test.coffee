@@ -17,6 +17,6 @@ describe 'tucker old style hubot testing with chai', ->
 
   it 'registers a tucker hear listener', ->
     expect(@robot.hear).to.have.been.calledWith(/tucker/i)
-                                                
+
   it 'registers a malcolm hear listener', ->
-    expect(@robot.hear).to.have.been.calledWith(/malc(\s+|olm)/i)
+    expect(@robot.hear).to.have.been.calledWith(/malc(\s*|olm)/i)
