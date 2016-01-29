@@ -83,7 +83,7 @@ module.exports = (robot) ->
     if person is "me"
       quote = res.random thirdPerson
       res.send "Malcolm was talking about you earlier, he said \"#{quote}\""
-    else if person.search(/malc(\s+|olm)|tucker|himself/i) > -1
+    else if person.search(/malc|malcolm|tucker|himself/i) > -1
       res.send "I'm watching you, you cheeky fucker."
     else
       quote = res.random secondPerson
@@ -99,7 +99,7 @@ module.exports = (robot) ->
         res.send "\"#{quote}\""
 
   unless process.env.HUBOT_LESS_MALCOLM
-    robot.hear /malc(\s+|olm)/i, (res) ->
+    robot.hear /malc(\s*|olm)/i, (res) ->
       message = res.message.text
       if message.search(/tucker/i) is -1 and message.search(/Malcolm was talking/i) is -1 and message.search(/heard Malcolm talking/i) is -1
         quote = res.random allQuotes
