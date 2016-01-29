@@ -91,6 +91,8 @@ module.exports = (robot) ->
 
   robot.hear /tucker/i, (res) ->
     message = res.message.text
+    name = message.search(robot.name)
+    robot.logger.info "name match = #{name}"
     if message.search(robot.name) is -1
       quote = res.random allQuotes
       if process.env.HUBOT_TUCKER_BYLINE
