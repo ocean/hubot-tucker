@@ -78,7 +78,7 @@ restOfQuotes = [
 allQuotes = secondPerson.concat thirdPerson, restOfQuotes
 
 module.exports = (robot) ->
-  robot.respond /tucker (\w+)/i, (res) ->
+  robot.respond /tucker (.+)/i, (res) ->
     person = res.match[1]
     if person is "me"
       quote = res.random thirdPerson
