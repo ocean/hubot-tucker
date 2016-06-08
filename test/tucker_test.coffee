@@ -13,7 +13,7 @@ describe 'tucker old style hubot testing with chai', ->
     require('../src/tucker')(@robot)
 
   it 'registers a tucker me respond listener', ->
-    expect(@robot.respond).to.have.been.calledWith(/tucker (\w+)/i)
+    expect(@robot.respond).to.have.been.calledWith(/tucker (.+)/i)
 
   it 'registers a tucker hear listener', ->
     expect(@robot.hear).to.have.been.calledWith(/tucker/i)

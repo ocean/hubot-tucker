@@ -38,6 +38,16 @@ describe 'new style with hubot-test-helper: tucker me or someone else', ->
         ['bob',   'hubot tucker Alan']
         ['hubot', 'I heard Malcolm talking to Alan, he said "Fuckity bye!"']
       ]
+  
+  context 'user says tucker Christopher Pyne to hubot', ->
+    beforeEach ->
+      room.user.say 'bob', 'hubot tucker Christopher Pyne'
+
+    it 'should abuse Christopher Pyne', ->
+      expect(room.messages).to.eql [
+        ['bob',   'hubot tucker Christopher Pyne']
+        ['hubot', 'I heard Malcolm talking to Christopher Pyne, he said "Fuckity bye!"']
+      ]
 
   context 'user says tucker Malcolm to hubot', ->
     beforeEach ->
@@ -113,23 +123,23 @@ describe 'new style with hubot-test-helper: mentions tucker or malcolm with TUCK
         ['hubot', '"Fuckity bye!" -- Malcolm Tucker']
       ]
 
-#describe 'new style with hubot-test-helper: mentions malcolm with LESS_MALCOLM env set', ->
+# describe 'new style with hubot-test-helper: mentions malcolm with LESS_MALCOLM env set', ->
 #  room = null
-#
+
 #  beforeEach ->
 #    # Set up the room before running the test
 #    room = helper.createRoom({'response': MockResponse})
 #    process.env.HUBOT_LESS_MALCOLM = true
-#
+
 #  afterEach ->
 #    process.env.HUBOT_LESS_MALCOLM = false
 #    # Tear it down after the test to free up the listener.
 #    room.destroy()
-#
+
 #  context 'user mentions Malcolm in a sentence', ->
 #    beforeEach ->
 #      room.user.say 'bob', 'who is this Malcolm guy?'
-#
+
 #    it 'should say nothing', ->
 #      expect(room.messages).to.eql [
 #        ['bob',   'who is this Malcolm guy?']
