@@ -24,7 +24,7 @@
   "devDependencies": {
     "chai": "^3.5.x",
     "hubot-test-helper": "^1.4.x",
-    "mocha": "^2.4.x",
+    "mocha": "^3.x",
     "sinon-chai": "^2.8.x",
     "sinon": "^1.17.x"
   },
