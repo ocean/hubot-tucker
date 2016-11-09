@@ -19,7 +19,7 @@
     "url": "https://github.com/ocean/hubot-tucker/issues"
   },
   "dependencies": {
-    "coffee-script": "1.6.3"
+    "coffee-script": "1.11.1"
   },
   "devDependencies": {
     "chai": "^3.5.x",
