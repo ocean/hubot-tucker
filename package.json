@@ -1,7 +1,7 @@
 {
   "name": "hubot-tucker",
   "description": "Malcolm Tucker quote provider for Hubot",
-  "version": "1.5.8",
+  "version": "1.5.9",
   "author": "Drew Robinson <drew.robinson@gmail.com>",
   "license": "MIT",
   "keywords": [
@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "chai": "^3.5.x",
-    "hubot-test-helper": "^1.4.x",
+    "hubot-test-helper": "^1.5.x",
     "mocha": "^3.x",
     "sinon-chai": "^2.8.x",
     "sinon": "^1.17.x"
