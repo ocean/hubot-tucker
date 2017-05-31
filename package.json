@@ -22,7 +22,7 @@
     "coffee-script": "1.6.3"
   },
   "devDependencies": {
-    "chai": "^3.5.x",
+    "chai": "^4.0.1",
     "hubot-test-helper": "^1.5.x",
     "mocha": "^3.x",
     "sinon-chai": "^2.8.x",
