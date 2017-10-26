@@ -27,7 +27,7 @@
     "hubot-test-helper": "^1.7.0",
     "mocha": "^3.5.0",
     "nyc": "^11.1.0",
-    "sinon": "^3.2.0",
+    "sinon": "^4.0.0",
     "sinon-chai": "^2.13.0"
   },
   "main": "index.coffee",
