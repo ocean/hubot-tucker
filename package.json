@@ -28,7 +28,7 @@
     "mocha": "^3.5.0",
     "nyc": "^11.1.0",
     "sinon": "^4.0.0",
-    "sinon-chai": "^2.13.0"
+    "sinon-chai": "^3.0.0"
   },
   "main": "index.coffee",
   "scripts": {
