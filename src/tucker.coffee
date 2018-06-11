@@ -102,6 +102,7 @@ module.exports = (robot) ->
   unless process.env.HUBOT_LESS_MALCOLM
     robot.hear /malc(\s*|olm)/i, (res) ->
       message = res.message.text
+      console.dir res
       if message.search(/tucker/i) is -1 and message.search(/Malcolm was talking/i) is -1 and message.search(/heard Malcolm talking/i) is -1
         quote = res.random allQuotes
         if process.env.HUBOT_TUCKER_BYLINE
