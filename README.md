@@ -40,6 +40,8 @@ Your Hubot will now respond with a highly inappropriate, uniquely-Malcolm Tucker
 
 ### Configuration variables
 
+- `HUBOT_TUCKER_OFF` - if you need to quickly and simply switch Malcolm off completely, set this to `true` or `1` and this Hubot script will only judge you silently, instead of loudly in public.
+
 - `HUBOT_LESS_MALCOLM` - if you wish Hubot to not respond with a quote when the name "Malc" or "Malcolm" is mentioned (say because you have someone in your team called Malcolm, or because [your country gets a new Prime Minister][5] and your colleagues chat about politics a lot ;-) then set `HUBOT_LESS_MALCOLM` to `true` or `1` and Hubot will ignore these words.
 
 - `HUBOT_TUCKER_BYLINE` - if some members of your chat room are perplexed about the abuse Hubot is hurling and who this Malcolm person is, set this to `true` or `1` and Hubot will sign each pithy general abuse epithet with a byline, "`-- Malcolm Tucker`".

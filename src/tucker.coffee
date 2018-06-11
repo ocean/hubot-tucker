@@ -5,6 +5,7 @@
 #   None
 #
 # Configuration:
+#   HUBOT_TUCKER_OFF - quick switch to turn Malcolm off completely, if set to true
 #   HUBOT_LESS_MALCOLM - if set to true or 1, Hubot will skip mentions of "Malcolm" or "Malc"
 #   HUBOT_TUCKER_BYLINE - if set to true or 1, Hubot will add a byline to the end of quotes
 #
@@ -78,34 +79,35 @@ restOfQuotes = [
 allQuotes = secondPerson.concat thirdPerson, restOfQuotes
 
 module.exports = (robot) ->
-  robot.respond /tucker (.+)/i, (res) ->
-    person = res.match[1]
-    if person is "me"
-      quote = res.random thirdPerson
-      res.send "Malcolm was talking about you earlier, he said \"#{quote}\""
-    else if person.search(/malc|malcolm|tucker|himself/i) > -1
-      res.send "I'm watching you, you cheeky fucker."
-    else
-      quote = res.random secondPerson
-      res.send "I heard Malcolm talking to #{person}, he said \"#{quote}\""
-
-  robot.hear /tucker/i, (res) ->
-    message = res.message.text
-    re = new RegExp robot.name, 'i'
-    if message.search(re) is -1
-      quote = res.random allQuotes
-      if process.env.HUBOT_TUCKER_BYLINE
-        res.send "\"#{quote}\" -- Malcolm Tucker"
+  unless process.env.HUBOT_TUCKER_OFF
+    robot.respond /tucker (.+)/i, (res) ->
+      person = res.match[1]
+      if person is "me"
+        quote = res.random thirdPerson
+        res.send "Malcolm was talking about you earlier, he said \"#{quote}\""
+      else if person.search(/malc|malcolm|tucker|himself/i) > -1
+        res.send "I'm watching you, you cheeky fucker."
       else
-        res.send "\"#{quote}\""
+        quote = res.random secondPerson
+        res.send "I heard Malcolm talking to #{person}, he said \"#{quote}\""
 
-  unless process.env.HUBOT_LESS_MALCOLM
-    robot.hear /malc(\s*|olm)/i, (res) ->
+    robot.hear /tucker/i, (res) ->
       message = res.message.text
-      console.dir res
-      if message.search(/tucker/i) is -1 and message.search(/Malcolm was talking/i) is -1 and message.search(/heard Malcolm talking/i) is -1
+      re = new RegExp robot.name, 'i'
+      if message.search(re) is -1
         quote = res.random allQuotes
         if process.env.HUBOT_TUCKER_BYLINE
           res.send "\"#{quote}\" -- Malcolm Tucker"
         else
           res.send "\"#{quote}\""
+
+    unless process.env.HUBOT_LESS_MALCOLM
+      robot.hear /malc(\s*|olm)/i, (res) ->
+        message = res.message.text
+        # console.dir res
+        if message.search(/tucker/i) is -1 and message.search(/Malcolm was talking/i) is -1 and message.search(/heard Malcolm talking/i) is -1
+          quote = res.random allQuotes
+          if process.env.HUBOT_TUCKER_BYLINE
+            res.send "\"#{quote}\" -- Malcolm Tucker"
+          else
+            res.send "\"#{quote}\""
