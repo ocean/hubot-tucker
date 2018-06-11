@@ -19,16 +19,16 @@
     "url": "https://github.com/ocean/hubot-tucker/issues"
   },
   "dependencies": {
-    "coffee-script": "1.6.3"
+    "coffeescript": "1.6.3"
   },
   "devDependencies": {
     "chai": "^4.1.2",
-    "coveralls": "^3.0.x",
-    "hubot-test-helper": "^1.8.1",
-    "mocha": "^5.0.x",
-    "nyc": "^11.4.x",
-    "sinon": "^4.0.x",
-    "sinon-chai": "^3.0.x"
+    "coveralls": "^3.0.1",
+    "hubot-test-helper": "^1.9.0",
+    "mocha": "^5.2.x",
+    "nyc": "^12.0.x",
+    "sinon": "^5.1.x",
+    "sinon-chai": "^3.1.x"
   },
   "main": "index.coffee",
   "scripts": {
@@ -37,7 +37,7 @@
   },
   "greenkeeper": {
     "ignore": [
-      "coffee-script"
+      "coffeescript"
     ]
   }
 }
