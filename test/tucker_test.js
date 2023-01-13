@@ -14,14 +14,14 @@ describe('tucker old style hubot testing with chai', function() {
   });
 
   it('registers a tucker me respond listener', function() {
-    return expect(this.robot.respond).to.have.been.calledWith(/tucker (.+)/i);
+    expect(this.robot.respond).to.have.been.calledWith(/tucker (.+)/i);
   });
 
   it('registers a tucker hear listener', function() {
-    return expect(this.robot.hear).to.have.been.calledWith(/tucker/i);
+    expect(this.robot.hear).to.have.been.calledWith(/tucker/i);
   });
 
   it('registers a malcolm hear listener', function() {
-    return expect(this.robot.hear).to.have.been.calledWith(/malc(\s*|olm)/i);
+    expect(this.robot.hear).to.have.been.calledWith(/malc(\s*|olm)/i);
   });
 });
