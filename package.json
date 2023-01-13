@@ -34,10 +34,5 @@
   "scripts": {
     "test": "script/test",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
-  },
-  "greenkeeper": {
-    "ignore": [
-      "coffeescript"
-    ]
   }
 }

@@ -1,6 +1,6 @@
 # Hubot Tucker
 
-[![Build Status](https://img.shields.io/travis/ocean/hubot-tucker.svg?style=flat-square)](https://travis-ci.org/ocean/hubot-tucker) [![Coverage Status](https://img.shields.io/coveralls/ocean/hubot-tucker/master.svg?style=flat-square)](https://coveralls.io/github/ocean/hubot-tucker?branch=master) [![Dependency Status](https://david-dm.org/ocean/hubot-tucker.svg?style=flat-square)](https://david-dm.org/ocean/hubot-tucker) [![npm version](https://img.shields.io/npm/v/hubot-tucker.svg?style=flat-square)](https://www.npmjs.com/package/hubot-tucker) [![npm downloads](https://img.shields.io/npm/dt/hubot-tucker.svg?style=flat-square&label=total%20downloads)](https://www.npmjs.com/package/hubot-tucker) [![npm recent downloads](https://img.shields.io/npm/dm/hubot-tucker.svg?style=flat-square&label=recent%20downloads)](https://www.npmjs.com/package/hubot-tucker)
+[![Build Status](https://img.shields.io/travis/ocean/hubot-tucker.svg?style=flat-square)](https://travis-ci.org/ocean/hubot-tucker) [![Coverage Status](https://img.shields.io/coveralls/ocean/hubot-tucker/master.svg?style=flat-square)](https://coveralls.io/github/ocean/hubot-tucker?branch=master) [![npm version](https://img.shields.io/npm/v/hubot-tucker.svg?style=flat-square)](https://www.npmjs.com/package/hubot-tucker) [![npm downloads](https://img.shields.io/npm/dt/hubot-tucker.svg?style=flat-square&label=total%20downloads)](https://www.npmjs.com/package/hubot-tucker) [![npm recent downloads](https://img.shields.io/npm/dm/hubot-tucker.svg?style=flat-square&label=recent%20downloads)](https://www.npmjs.com/package/hubot-tucker)
 
 [Malcolm Tucker](https://en.wikipedia.org/wiki/Malcolm_Tucker) quote provider for [Hubot](https://hubot.github.com) created by [@ocean][1].
 
@@ -63,7 +63,7 @@ Drew Robinson, [@ocean][1].
 
 [![Follow ocean on Twitter](https://img.shields.io/twitter/follow/ocean.svg?style=social)][1]
 
-[1]: https://twitter.com/ocean
+[1]: https://github.com/ocean
 [2]: https://github.com/arsenio
 [3]: https://github.com/danriti
 [4]: https://github.com/danriti/hubot-bofh
