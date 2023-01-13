@@ -30,9 +30,10 @@
     "sinon": "^9.0.2",
     "sinon-chai": "^3.1.x"
   },
-  "main": "index.coffee",
+  "main": "index.js",
   "scripts": {
-    "test": "script/test",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "test": "NODE_ENV=development mocha --exit test/*.js",
+    "coverage": "NODE_ENV=development nyc mocha --exit test/*.js",
+    "report-coverage": "nyc report --reporter=text-lcov | coveralls"
   }
 }
