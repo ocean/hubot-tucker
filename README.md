@@ -61,8 +61,6 @@ The included quotes were compiled from various sources around the Internet, incl
  
 Drew Robinson, [@ocean][1].
 
-[![Follow ocean on Twitter](https://img.shields.io/twitter/follow/ocean.svg?style=social)][1]
-
 [1]: https://github.com/ocean
 [2]: https://github.com/arsenio
 [3]: https://github.com/danriti
