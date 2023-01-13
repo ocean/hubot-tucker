@@ -18,11 +18,9 @@
   "bugs": {
     "url": "https://github.com/ocean/hubot-tucker/issues"
   },
-  "dependencies": {
-    "coffeescript": "1.6.3"
-  },
+  "dependencies": { },
   "devDependencies": {
-    "chai": "^4.1.2",
+    "chai": "^4.3.7",
     "coveralls": "^3.1.1",
     "hubot-test-helper": "^1.9.0",
     "mocha": "^10.2.x",
