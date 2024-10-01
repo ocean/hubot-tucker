@@ -1,6 +1,6 @@
 # Hubot Tucker
 
-[![Build Status](https://img.shields.io/travis/ocean/hubot-tucker.svg?style=flat-square)](https://travis-ci.org/ocean/hubot-tucker) [![Coverage Status](https://img.shields.io/coveralls/ocean/hubot-tucker/master.svg?style=flat-square)](https://coveralls.io/github/ocean/hubot-tucker?branch=master) [![npm version](https://img.shields.io/npm/v/hubot-tucker.svg?style=flat-square)](https://www.npmjs.com/package/hubot-tucker) [![npm downloads](https://img.shields.io/npm/dt/hubot-tucker.svg?style=flat-square&label=total%20downloads)](https://www.npmjs.com/package/hubot-tucker) [![npm recent downloads](https://img.shields.io/npm/dm/hubot-tucker.svg?style=flat-square&label=recent%20downloads)](https://www.npmjs.com/package/hubot-tucker)
+![Test status](https://github.com/ocean/hubot-tucker/actions/workflows/test.yml/badge.svg) [![Coverage Status](https://img.shields.io/coveralls/ocean/hubot-tucker/master.svg?style=flat-square)](https://coveralls.io/github/ocean/hubot-tucker?branch=master) [![npm version](https://img.shields.io/npm/v/hubot-tucker.svg?style=flat-square)](https://www.npmjs.com/package/hubot-tucker) [![npm downloads](https://img.shields.io/npm/dt/hubot-tucker.svg?style=flat-square&label=total%20downloads)](https://www.npmjs.com/package/hubot-tucker) [![npm recent downloads](https://img.shields.io/npm/dm/hubot-tucker.svg?style=flat-square&label=recent%20downloads)](https://www.npmjs.com/package/hubot-tucker)
 
 [Malcolm Tucker](https://en.wikipedia.org/wiki/Malcolm_Tucker) quote provider for [Hubot](https://hubot.github.com) created by [@ocean][1].
 
@@ -8,19 +8,21 @@
 
 <img src="https://i.imgur.com/AkuwSlW.png" title="Malcolm visits the USA" />
 
+I wouldn't have thought you'd be here if you don't know who Malcolm Tucker is, but in case you don't, he is a character from British BBC political comedy series [_The Thick of It_](https://en.wikipedia.org/wiki/The_Thick_of_It), created by the masterful [Armando Iannucci](https://en.wikipedia.org/wiki/Armando_Iannucci) and brought to life by the amazing [Peter Capaldi](https://en.wikipedia.org/wiki/Peter_Capaldi).
+
 ## Installation
 
 1. Add **hubot-tucker** to your `package.json` file:
 
   ```json
-  ...
+
   "dependencies": {
     "...": "*",
     "hubot": "*",
     "hubot-tucker": "*",
     "...": "*",
   }
-  ...
+
   ```
 
 1. Add **hubot-tucker** to your `external-scripts.json`:
@@ -58,6 +60,8 @@ The included quotes were compiled from various sources around the Internet, incl
 - [http://www.imdb.com/character/ch0029856/quotes](http://www.imdb.com/character/ch0029856/quotes)
 - [http://dave.uktv.co.uk/thick-it/article/malcolm-tuckers-10-best-apocalyinsults-thick-it/](http://dave.uktv.co.uk/thick-it/article/malcolm-tuckers-10-best-apocalyinsults-thick-it/)
 - [http://www.buzzfeed.com/robinedds/dont-ever-call-me-f-in-english-again](http://www.buzzfeed.com/robinedds/dont-ever-call-me-f-in-english-again)
+
+And of course thanks to the BBC, [Armando Iannucci](https://en.wikipedia.org/wiki/Armando_Iannucci), and everyone else involved for the creation of the show.
  
 Drew Robinson, [@ocean][1].
 
