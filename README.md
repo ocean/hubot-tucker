@@ -25,13 +25,13 @@ I wouldn't have thought you'd be here if you don't know who Malcolm Tucker is, b
 
   ```
 
-1. Add **hubot-tucker** to your `external-scripts.json`:
+2. Add **hubot-tucker** to your `external-scripts.json`:
 
   ```json
   ["hubot-tucker"]
   ```
 
-1. Run `npm install`
+3. Run `npm install`
 
 ## Usage
 
